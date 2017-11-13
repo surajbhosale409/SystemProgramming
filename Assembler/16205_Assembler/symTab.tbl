@@ -1,0 +1,9 @@
+
+
+SYMBOL TABLE:
+Symbol	SID	Line	D/U	Size	Address	Value
+a	S3	3	Def	4	5	0
+fmt	S2	2	Def	5	0	"%d  ",0
+main	S10	12	Def	 - 	 - 	 - 
+sum	S6	6	Def	4	9	NULL
+lp	S5	33	Def	 - 	 - 	 - 

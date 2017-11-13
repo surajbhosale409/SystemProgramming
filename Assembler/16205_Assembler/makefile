@@ -1,0 +1,3 @@
+myasm:
+	python firstPass.py
+

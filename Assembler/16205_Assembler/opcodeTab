@@ -1,0 +1,160 @@
+NAME:-    SURAJ RAJENDRA BHOSALE
+ROLL NO:- 16205
+OPCODE TABLE ENTRIES FOR MY X86 Assembler
+
+#######################
+# OPCODE TABLE PART 1 #
+#######################
+
+#Using Dictionary Data Structure#
+
+opcodes={ "add":"OP1", "cld":"OP2" , "cmp":"OP3" , "dec":"OP4" , "div":"OP5","inc":"OP6","int":"OP7","jmp":"OP8","lodsb":"OP9",   "lodsd":"OP10","mov":"OP11","movsb":"OP12","movsd":"OP13","mul":"OP14","pop":"OP15","popa":"OP16","push":"OP17","pusha":"OP18",   "ret":"OP19","scasb":"op20","std":"OP21","stosb":"OP22","stosd":"OP23","sub":"OP24","xor":"OP25","jz":"OP26","je":"OP27","jg":    "OP28","jl":"OP29"}
+
+Instrucntion |  Opcode 
+             |
+popa	     |  OP16
+int          |  OP7
+pop	     |  OP15
+pusha	     |  OP18
+inc	     |  OP6
+jz	     |  OP26
+xor	     |  OP25
+sub	     |  OP24
+cld	     |  OP2
+ret	     |  OP19
+add	     |  OP1
+mul	     |  OP14
+scasb	     |  op20
+stosd	     |  OP23
+stosb	     |  OP22
+jmp	     |  OP8
+mov	     |  OP11
+jl	     |  OP29
+je	     |  OP27
+jg	     |  OP28
+std	     |  OP21
+movsd	     |  OP13
+movsb	     |  OP12
+lodsb	     |  OP9
+lodsd	     |  OP10
+push	     |  OP17
+div	     |  OP5
+dec	     |  OP4
+cmp	     |  OP3
+
+
+#######################
+# OPCODE TABLE PART 2 #
+#######################
+
+# Using File which will be read and stored into a dictionary #
+# Dictionary structure : key=opcode,value=[Instrunction Format,Opcode Number] #
+
+
+OPCODE      INSTRUNCTION FORMAT     OPCODE NUMBER
+
+OP15        REG                     00
+
+OP6         REG                     01
+            MEM                     02
+
+OP26        IMM                     03
+
+OP25        REG , REG               04
+            REG , MEM               05
+            REG_1 , IMM             07
+            REG_2 , IMM             08
+            REG_3 , IMM             09
+            REG_4 , IMM             0A
+            REG_5 , IMM             0B
+            REG_6 , IMM             0C
+            REG_7 , IMM             0D
+            REG_8 , IMM             0E
+
+OP24        REG , REG               0F
+            REG , MEM               10
+            MEM , REG               11
+            REG_1 , IMM             12
+            REG_2 , IMM             13
+            REG_3 , IMM             14
+            REG_4 , IMM             15
+            REG_5 , IMM             16
+            REG_6 , IMM             17
+            REG_7 , IMM             18
+            REG_8 , IMM             19
+
+
+OP1         REG , REG               1A
+            REG , MEM               1B
+            MEM , REG               1C
+            REG_1 , IMM             1D
+            REG_2 , IMM             1E
+            REG_3 , IMM             1F
+            REG_4 , IMM             20
+            REG_5 , IMM             21
+            REG_6 , IMM             22
+            REG_7 , IMM             23
+            REG_8 , IMM             24
+
+
+OP14        REG                     25
+            MEM                     26
+            IMM                     27
+           
+          
+
+OP8         IMM                     28
+
+OP27        IMM                     29
+
+OP28        IMM                     2A
+
+OP29        IMM                     2B
+
+
+OP11        REG , REG               2C
+            REG , MEM               2D
+            MEM , REG               2E
+            REG_1 , IMM             2F
+            REG_2 , IMM             30
+            REG_3 , IMM             31
+            REG_4 , IMM             32
+            REG_5 , IMM             33
+            REG_6 , IMM             34
+            REG_7 , IMM             35
+            REG_8 , IMM             36
+
+OP17        REG                     37
+
+OP4         REG                     38
+            MEM                     39
+
+OP5         REG                     3A
+            MEM                     3B
+            IMM                     3C
+ 
+
+OP3         REG , REG               3D
+            REG , MEM               3E
+            MEM , REG               3F
+            REG_1 , IMM             40
+            REG_2 , IMM             41
+            REG_3 , IMM             42
+            REG_4 , IMM             43
+            REG_5 , IMM             44
+            REG_6 , IMM             45
+            REG_7 , IMM             46
+            REG_8 , IMM             47
+
+
+OP7         IMM                     49
+
+OP16                                48
+
+OP18                                4A
+
+OP2                                 4B
+
+OP19                                4C
+
+OP21                                4D

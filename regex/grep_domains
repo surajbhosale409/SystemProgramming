@@ -1,0 +1,4 @@
+grep -o -E "[a-z]+[.][a-z]+[.[a-z]*]*" gmail_data > validDomainsData
+echo "Total number of Domains Found"
+wc -l validDomainsData
+echo "Domains are stored in validDomains File\nThank You\nBye"

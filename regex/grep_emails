@@ -1,0 +1,7 @@
+grep -o -E "[a-z][a-z|0-9|.|_]*@[a-z]*.[a-z]*" gmail_data 
+#> validMailData
+
+#echo "Total number emails found: "
+#wc -l validMailData
+
+#echo "Emails are stored into validMailData file\nThank You\nBye" 
